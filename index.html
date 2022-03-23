@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IMC</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="imc">IMC</h1>
+
+            <div class="dados">
+                Nome: <input type="text" name="nome" id="nome"> <br><br>
+                Altura: <input type="text" name="altura" id="altura"> <br><br>
+                Peso: <input type="text" name="peso" id="peso">
+            </div>
+
+            <br><br>
+
+            <button onclick="analisar()">Analisar</button>
+
+            <article>
+                <div id="dados"></div>
+            </article>
+        </header>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

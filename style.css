@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color: rgb(62, 62, 245);
+    border-radius: 20px;
+    border: 1px solid black;
+
+    height: 70vh;
+    width: 350px;
+
+    position: relative;
+}
+
+.imc{
+    margin: 10px 0px 20px 0px;
+}
+
+input{
+    padding: 3px 30px;
+    border-radius: 5px;
+}
+
+button{
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    padding: 5px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+article{
+    background-color: black;
+    border-radius: 15px;
+    border: 0.1px solid gray;
+    color: white;
+
+    width: 310px;
+    height: 170px;
+
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
+
