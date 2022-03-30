@@ -4,57 +4,95 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #201e1f;
+}
+/* container */
 .container{
-    text-align: center;
     display: flex;
     justify-content: center;
-}
 
-header{
-    background-color: rgb(62, 62, 245);
-    border-radius: 20px;
-    border: 1px solid black;
+    width: 230px;
+    height: 400px;
 
-    height: 70vh;
-    width: 350px;
+    margin: 0 auto;
+
+    background-color: #ff4000;
+    border: 1px solid purple;
+    border-radius: 15px;
+    box-shadow: 0 0 0.5em purple;
 
     position: relative;
 }
 
-.imc{
-    margin: 10px 0px 20px 0px;
+/* main */
+main{
+
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 100%;
+    width: 176px;
+
+    position: absolute;
+}
+
+h1{
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 38px;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+
 }
 
 input{
-    padding: 3px 30px;
-    border-radius: 5px;
+    padding-left: 5px;
+    height: 20px;
+    width: 100%;
+
+    border: none;
+    border-radius: 3px;
+    border: 1px solid black;
 }
 
 button{
-    position: absolute;
-    top: 200px;
-    left: 130px;
-    padding: 5px 25px;
-    border-radius: 7px;
+    height: 25px;
+    width: 100%;
+    
+    border-radius: 10px;
+    border: none;
     cursor: pointer;
+    border: 1px solid black;
 }
 
-article{
-    background-color: black;
-    border-radius: 15px;
-    border: 0.1px solid gray;
+.resultado{
+
+    background-color: #50b2c0;
+    height: 120px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 0.5em #201e1f;
+    border: 1px solid #004d58ad;
+
+}
+
+#res-conteudo{
+    text-align: center;
+    padding: 25px;
+    position: relative;
+
+    width: 100%;
+    font-size: larger;
     color: white;
-
-    width: 310px;
-    height: 170px;
-
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+    border-radius: 3px;
 }
-
-
-
 
 
 
